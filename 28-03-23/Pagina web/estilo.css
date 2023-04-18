@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*NAVBAR*/
+nav ul{
+    list-style: none;
+    background-color: black;
+    overflow: auto;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+nav li{
+    float: left;
+}
+nav li a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+}
+nav li a:hover{
+    background-color: azure;
+    color: black;
+}
+/*FIN NAVBAR*/
+
+/*HERO*/
+.hero{
+    background-image: linear-gradient(rgba(3, 92, 1, 0.500),rgba(0,0,0,0.5)),
+    url(img/img\ 2.jpg);
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.text-hero{
+    color: white;
+    text-align: center;
+    padding: 250px;
+}
+/*Fin HERO*/
+
+/*UTILIDADES*/
+.text-large{
+    font-size: 80px;
+}
+.text-medium{
+    font-size: 30px;
+}
+.contenedor{
+    width: 90%;
+    height:auto;
+    padding: 80px;
+}
+/*FIN UTILIDADES*/
+
+/* INFORMACION */
+.info{
+    background-color: gray;
+    color: white;
+}
+.text-info{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+}
+/* FIN INFORMACION */
+
+/* DESCRIPCIÓN */
+.contenedor-card{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.5);
+    border-radius: 15px;
+    transform: scale(0.9);
+    transition: transform 0.4ms;
+}
+.card:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.87);
+    transform: scale(1);
+}
+.card p{
+    font-size: 15px;
+    margin: 10px;
+}
+.card i{
+    color: blue;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.titulo{
+    margin: 40px;
+    text-align: center;
+}
+/* FIN DESCRIPCIÓN */
+
+/* Galeria */
+.container-gallery{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container-gallery img{
+    width: 23%;
+    margin-bottom: 30px;
+    box-shadow: 5px,5px,5px, rgb(0, 0, 0, 0.87);
+    border-radius:15px;
+}
+.gallery{
+    background-color: rgba(3, 92, 1, 0.500);
+}
+.container-gallery img:hover{
+    transform: scaleX(-1);
+    cursor: pointer;
+}
+/* FIN Galeria */
+
+/* INICIO FOOTER */
+.footer-color{
+    background-color: black;
+    color: white;
+}
+.footer{
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+}
+.footer ul{
+    list-style-type: none;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer li{
+    padding: 3px;
+}
+.footer a:hover{
+    color:aqua
+}
+/* FIN FOOTER */
